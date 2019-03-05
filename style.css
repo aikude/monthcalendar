@@ -1,0 +1,21 @@
+h1, h2, h3, h6 { text-align: center; margin: 10px auto; }
+.container { width: 90%; margin: 0 auto;}
+.gridcol { width: 49%; min-width: 540px; display: inline-block; vertical-align: top; }
+#calendar {
+    width: 500px; height: 500px; margin: 10px auto;
+}
+#calendar .datebox {
+    width: 13%; height: 70px; border: 1px solid #999; color: black; font-weight: bold;
+    text-align: center; line-height: 70px; display: inline-block; margin: 0; background-color: #eee;
+}
+#calendar .header {
+    height: 40px; line-height: 40px; background-color: gray; color: white;
+}
+#calendar .today { background-color: lightgreen; cursor: pointer; }
+#calendar .date { background-color: #fcfcfc; }
+#calendar .open { background-color: white; cursor: pointer; }
+#calendar .booked { background-color: lightskyblue; cursor: pointer; }
+
+ol.appointments { border: 1px solid black; width: 90%; } 
+ol li { margin: 10px; }
+.cancel { cursor: pointer; color: blue; text-decoration: underline; }
